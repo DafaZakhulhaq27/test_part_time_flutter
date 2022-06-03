@@ -41,8 +41,7 @@ class BottomNavigationContainer extends StatelessWidget {
         Text(
           navigationName,
           style: content.copyWith(
-            fontSize: 12,
-          ),
+              fontSize: 12, color: isActive ? white : secondary),
         )
       ],
     );
